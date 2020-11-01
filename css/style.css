@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+}
+ul, ol, li {
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a:-webkit-any-link {
+    color: #4a956b;
+}
+.header{
+    /* border: 2px solid tomato; */
+}
+
+.item{
+    font-weight: 400;
+    font-size: small;
+    padding: 2px;    
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: rgba(128, 128,128, 0.2);
+    border-radius: 8rem 8rem 8rem 8rem;
+}
+
+.menu_header{
+    text-align: center;
+}
+
+.item img{
+    width: 15px;
+}
